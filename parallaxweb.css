@@ -1,0 +1,50 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Sedgwick Ave", cursive;
+}
+
+.parallax1,
+.parallax2,
+.parallax3,
+.parallax4,
+.parallax5 {
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax1 {
+  background-image: url("https://www.esl.de/sites/default/files/styles/image_gallery/public/city/gallery/esl-istanbul-language-stay-2.jpg?itok=cJS5rYyH");
+}
+
+.parallax2 {
+  background-image: url("https://4.bp.blogspot.com/-0Q9fgX8YAkM/WlOPDJ902KI/AAAAAAAAO9o/CR5VFa_OHPQwndwFVpgflbmuPkv0gf7UgCLcBGAs/s1600/fatih_sultan_mehmet_bridge_istanbul_turkey_bosphorus_cities_1920x1080_65826.jpg");
+}
+
+.parallax3 {
+  background-image: url("https://s1.1zoom.me/b5050/147/Istanbul_Turkey_Houses_Night_From_above_512766_1920x1080.jpg");
+}
+
+.parallax4 {
+  background-image: url("https://images7.alphacoders.com/392/thumb-1920-392986.jpg");
+}
+
+.parallax5 {
+  background-image: url("https://wallpaperaccess.com/full/1445618.jpg");
+}
+
+.parallaxtext {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 36px;
+  background-color: turquoise;
+  box-shadow: inset -1px 1px 13px 3px #fff;
+}
